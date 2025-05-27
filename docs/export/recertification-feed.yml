@@ -1,0 +1,18 @@
+# recertification-feed.yml
+# NI Open Source Program – Education Services Export
+# Version: v2025.05-governance-hardened
+
+generated: 2025-05-26
+milestone: v2025.08.3
+
+contributors:
+  - handle: "@crossruls"
+    repo: "ni/labview-icon-editor"
+    pr_url: "https://github.com/ni/labview-icon-editor/pull/42"
+    merged: true
+    point_value: 2
+    tags:
+      - test
+      - manual-verification
+    notes: |
+      Merged test PR from @crossruls validated under v2025.06.5. Tagged manually in nomination-feed.
