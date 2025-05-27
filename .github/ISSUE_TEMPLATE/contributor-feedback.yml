@@ -1,0 +1,29 @@
+name: Contributor Dashboard Feedback
+description: Request to confirm, update, or opt out of public contributor metadata
+title: "[Feedback] Contributor Dashboard – @yourhandle"
+labels: [feedback, opt-out, metadata-update]
+body:
+  - type: input
+    id: github-handle
+    attributes:
+      label: GitHub Handle
+      placeholder: "@yourhandle"
+    validations:
+      required: true
+  - type: checkboxes
+    id: request-type
+    attributes:
+      label: Request Type
+      options:
+        - label: Confirm my metadata as correct
+        - label: I would like to be removed from dashboards (opt-out)
+        - label: I would like to update my information
+    validations:
+      required: true
+  - type: textarea
+    id: request-notes
+    attributes:
+      label: Notes or Details
+      description: If requesting an update, explain what should change
+    validations:
+      required: false
