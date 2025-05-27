@@ -1,0 +1,49 @@
+# THREAD-ID-REGISTRY.yml
+# NI Open Source Program — Immutable Thread ID Execution Map
+
+program_version: v2025.05-governance-hardened
+
+threads:
+  - thread_id: thread-01
+    role: System GPT (Program Coordination)
+    status: retired
+    executed_by: System GPT
+    milestone_range:
+      from: v2025.06.0
+      to: v2025.09.4
+    output_files:
+      - PROGRAM-BUNDLE.md
+      - AI-BEHAVIOR-OVERRIDE.md
+      - onboarding-index
+      - recognition-feed.yml
+
+  - thread_id: thread-02
+    role: Recognition GPT (Signal Interpreter)
+    status: active
+    executed_by: gpt-recognition-01
+    milestone_range:
+      from: v2025.12.0
+      to: v2025.12.9
+    output_files:
+      - nomination-feed.yml
+      - recognition-eligibility-feed.yml
+      - contributor visibility cards
+
+  - thread_id: thread-03
+    role: CLA GPT (Licensing Validator)
+    status: active
+    executed_by: gpt-cla-01
+    milestone_range:
+      from: v2025.11.0
+      to: v2025.11.2
+    output_files:
+      - cla-status.yml
+      - CLA-STATUS-VERIFICATION.md
+
+  - thread_id: thread-04
+    role: Certification Dashboard Feed (future)
+    status: reserved
+    executed_by: null
+    milestone_range:
+      from: v2025.13.0
+      to: v2025.13.9
