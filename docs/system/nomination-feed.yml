@@ -1,0 +1,20 @@
+# nomination-feed.yml
+# NI Open Source Program — Badge Nomination Candidates (v2025.07.1)
+
+program_version: v2025.05-governance-hardened
+milestone: v2025.07.1
+generated: 2025-05-26
+
+nominations:
+  - handle: "@crossruls"
+    source_repo: "ni/labview-icon-editor"
+    source_file: "docs/forms/test-forms-submission-001.md"
+    source_type: "form"
+    signal_tags:
+      - recognition-missing
+      - confidence-4
+      - public-log
+    badge_considered: "Test Coordinator"
+    status: surfaced
+    notes: |
+      Contributor submitted a public test result with signal tags indicating eligibility for Test Coordinator.
