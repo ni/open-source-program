@@ -4,6 +4,36 @@ This file tracks all milestone groupings and execution transitions under the NI 
 
 ---
 
+## 📅 2025-05-26 — v2025.07 Recognition Layer Activated
+
+This milestone series introduces the read-only Recognition GPT thread, which passively interprets contributor signals and surfaces candidates for badge nomination.
+
+---
+
+### 🧠 Milestones Completed
+
+- `v2025.07.0` – GPT thread registered for recognition logic
+- `v2025.07.1` – Nomination feed published (`nomination-feed.yml`)
+
+---
+
+### 📂 Outputs
+
+- `docs/system/nomination-feed.yml`
+- `GOVERNANCE-THREADS.md` updated with Recognition GPT role
+- Milestone logs for execution trace
+
+---
+
+### 🔒 Enforcement
+
+- No badge is assigned unless milestone-authorized
+- All signal reads must be opt-in and public
+- Automation remains frozen under `AUTOMATION-MODE.md`
+
+---
+
+
 ## 📅 2025-05-26 — v2025.06 Execution Tier Completed
 
 This milestone series marks the activation of live contributor metadata observation, onboarding enforcement, and public recognition signal feeds.
