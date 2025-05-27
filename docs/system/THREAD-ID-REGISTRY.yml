@@ -4,9 +4,23 @@
 program_version: v2025.05-governance-hardened
 
 threads:
+  - thread_id: thread-07
+    role: Program Coordinator GPT
+    status: active
+    executed_by: this GPT instance
+    milestone_range:
+      from: v2025.14.3
+      to: open-ended
+    coordinator: true
+    output_files:
+      - THREAD-ID-REGISTRY.yml
+      - THREAD-TRANSFER.md
+      - GPT-ORCHESTRATION.md
+      - GOV THREADS / MILESTONES
   - thread_id: thread-073
     role: Markdown Dashboard Renderer
-    status: active
+    status: retired
+    retirement_milestone: v2025.13.4
     executed_by: gpt-dashboard-01
     milestone_range:
       from: v2025.13.2

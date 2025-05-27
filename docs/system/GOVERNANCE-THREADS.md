@@ -13,6 +13,10 @@ This file defines all AI threads and GPTs authorized to execute milestones, vali
 | System GPT | Milestone logs + onboarding registry | `docs/governance/`, `docs/system/` | All folders | v2025.06.0 → v2025.09.4 (✅ Retired via v2025.08.5) |
 | CLA GPT | Contributor licensing validation (read-only) | None | GitHub PR metadata, commit signature status, cla-status.yml | v2025.11.x |
 | thread-07 | Program Coordinator GPT | `docs/system/`, `docs/governance/` | All folders | v2025.14.3 → v2025.14.9 (reserved) |
+| thread-073 | Markdown Dashboard Renderer | `docs/CONTRIBUTORS.md`, `dashboard-index.yml` | All signal feeds | v2025.13.2 → v2025.13.4 (✅ Retired) |
+| thread-07 | Program Coordinator GPT (Coordinator: ✅) | All system governance files | All folders | v2025.14.3 → ongoing |
+
+
 
 
 

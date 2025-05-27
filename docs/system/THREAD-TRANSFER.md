@@ -11,6 +11,11 @@ This file logs any reassignment or runtime transfer of GPTs executing governance
 | thread-01 | System GPT | — | v2025.08.5 | Retired |
 | thread-02 | gpt-recognition-01 | TBD | — | Still active |
 | thread-03 | gpt-cla-01 | — | v2025.11.x | CLA validation complete |
+| thread-073 | — | gpt-dashboard-01 | v2025.13.2 | Forked from Coordinator GPT (thread-07) for Markdown dashboard rendering |
+| thread-073 | gpt-dashboard-01 | — | v2025.13.4 | Retired after completing dashboard rendering tier |
+
+
+
 
 ---
 
