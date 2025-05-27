@@ -15,6 +15,13 @@ contributors:
     tags:
       - test
       - manual-verification
+    point_log: |
+      Contribution tagged as `test` and manually verified by milestone v2025.07.1.
+      No automation used. Points assigned manually based on:
+      - PR merged status
+      - Tag presence (`test`)
+      - Visibility in nomination feed
     notes: |
       Contributor identity verified via GitHub profile.
-      DCO confirmed via commit signature. CLA assumed based on milestone scope.
+      DCO confirmed via commit signature. CLA assumed via milestone.
+
