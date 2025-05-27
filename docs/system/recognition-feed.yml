@@ -1,0 +1,19 @@
+# recognition-feed.yml
+# NI Open Source Program — Contributor Visibility Signals (v2025.06.7)
+
+program_version: v2025.05-governance-hardened
+milestone: v2025.06.7
+generated: 2025-05-26
+
+contributors:
+  - handle: "@crossruls"
+    repo: "ni/labview-icon-editor"
+    source_file: "docs/forms/test-forms-submission-001.md"
+    opt_in: true
+    signals:
+      - recognition-missing
+      - public-log
+      - confidence-4
+    source_links:
+      - https://github.com/ni/open-source/discussions/24
+    status: visible
