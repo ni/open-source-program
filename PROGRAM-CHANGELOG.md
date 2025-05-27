@@ -1,6 +1,39 @@
 # 📘 PROGRAM-CHANGELOG.md
 
 This file tracks all milestone groupings and execution transitions under the NI Open Source Program.
+
+---
+
+## 📅 2025-05-27 — v2025.13 Contributor Dashboard Tier Complete
+
+This milestone tier publishes contributor dashboards under governance milestone control.
+
+---
+
+### ✅ Milestones
+
+- `v2025.13.0` → `.13.4`
+
+---
+
+### 📂 Files Rendered
+
+- `contributor-dashboard.yml`
+- `CONTRIBUTORS.md`
+- `dashboard-index.yml`
+- `.github/ISSUE_TEMPLATE/contributor-feedback.yml`
+
+---
+
+### 🔐 Metadata Controls
+
+- Contributors must be opt-in and validated
+- All dashboards are milestone-bound
+- Feedback and opt-out supported via issue templates
+
+Tier: ✅ Closed  
+Program Version: `v2025.05-governance-hardened`
+
 ---
 
 ## 📅 2025-05-27 — v2025.11 Contributor Licensing Enforcement Tier
