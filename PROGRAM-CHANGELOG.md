@@ -3,6 +3,38 @@
 This file tracks all milestone groupings and execution transitions under the NI Open Source Program.
 ---
 
+## 📅 2025-05-27 — v2025.11 Contributor Licensing Enforcement Tier
+
+This milestone series introduced the CLA + DCO validation system for contributor metadata under the NI Open Source Program.
+
+---
+
+### ✅ Milestones
+
+- `v2025.11.0` — Validation tier launched
+- `v2025.11.1` — Contributor verification protocol enforced
+- `v2025.11.2` — CLA feed approved for downstream consumption
+
+---
+
+### 📂 Files
+
+- `cla-status.yml`
+- `CLA-STATUS-VERIFICATION.md`
+- All milestone logs in `docs/governance/`
+
+---
+
+### 🔐 Trust Model
+
+- All contributors in export feeds must be verified
+- CLA GPT is registered for read-only access
+- GPTs may not modify CLA status without milestone execution
+
+Status: ✅ Tier sealed under `v2025.05-governance-hardened`
+
+---
+
 ## 📅 2025-05-26 — v2025.10 Contributor Visibility Tier Complete
 
 This milestone tier introduced contributor-facing metadata, dispute resolution, sync guidelines, and publishing logic.
