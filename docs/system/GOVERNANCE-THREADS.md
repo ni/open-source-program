@@ -10,7 +10,8 @@ This file defines all AI threads and GPTs authorized to execute milestones, vali
 |-------------|------|-----------|----------|------------|
 | Certification Layer GPT | Contributor profile + certification export | `docs/certification/`, `docs/export/` | `docs/forms/` | v2025.08 → v2025.18 |
 | Forms Parser GPT | Field mapping + opt-in ingestion | `FORMS-METADATA-MAP.md`, test forms | `.github/ISSUE_TEMPLATE` | v2025.06.2 |
-| System GPT | Milestone logs + onboarding registry | `docs/governance/`, `docs/system/` | All folders | v2025.06, v2025.13+ |
+| System GPT | Milestone logs + onboarding registry | `docs/governance/`, `docs/system/` | All folders | v2025.06.0 → v2025.09.4 (✅ Retired via v2025.08.5) |
+
 
 ---
 
