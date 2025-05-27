@@ -1,0 +1,20 @@
+# dashboard-index.yml
+# NI Open Source Program — Contributor Dashboard Index Map
+# Milestone: v2025.13.3
+# Version: v2025.05-governance-hardened
+
+dashboards:
+  - repo: ni/labview-icon-editor
+    thread_id: thread-073
+    contributors:
+      - handle: "@crossruls"
+        dashboard_view: docs/CONTRIBUTORS.md
+        feeds:
+          - recognition-feed.yml
+          - nomination-feed.yml
+          - recertification-feed.yml
+        milestone_source: v2025.13.2
+        cla_validated: true
+        badge_nomination: Test Coordinator
+        points: 2
+        display: true
