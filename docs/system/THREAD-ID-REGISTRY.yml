@@ -1,74 +1,31 @@
-# THREAD-ID-REGISTRY.yml
-# NI Open Source Program — Immutable Thread ID Execution Map
-
-program_version: v2025.05-governance-hardened
+# THREAD-ID-REGISTRY.yml  
+# NI Open Source Program — Thread ID Registry
 
 threads:
-  - thread_id: thread-07
-    role: Program Coordinator GPT
-    status: active
-    executed_by: this GPT instance
-    milestone_range:
-      from: v2025.14.3
-      to: open-ended
-    coordinator: true
-    output_files:
-      - THREAD-ID-REGISTRY.yml
-      - THREAD-TRANSFER.md
-      - GPT-ORCHESTRATION.md
-      - GOV THREADS / MILESTONES
-  - thread_id: thread-073
-    role: Markdown Dashboard Renderer
-    status: retired
-    retirement_milestone: v2025.13.4
-    executed_by: gpt-dashboard-01
-    milestone_range:
-      from: v2025.13.2
-      to: v2025.13.5
-    output_files:
-      - docs/CONTRIBUTORS.md
-      - dashboard-index.yml
-
   - thread_id: thread-01
-    role: System GPT (Program Coordination)
+    role: System GPT
     status: retired
     executed_by: System GPT
     milestone_range:
       from: v2025.06.0
       to: v2025.09.4
+    retirement_milestone: v2025.09.4
     output_files:
-      - PROGRAM-BUNDLE.md
       - AI-BEHAVIOR-OVERRIDE.md
-      - onboarding-index
-      - recognition-feed.yml
+      - PROGRAM-BUNDLE.md
 
-  - thread_id: thread-02
-    role: Recognition GPT (Signal Interpreter)
-    status: active
-    executed_by: gpt-recognition-01
+  - thread_id: thread-07
+    role: Program Coordinator GPT
+    status: retired
+    executed_by: this GPT instance
     milestone_range:
-      from: v2025.12.0
-      to: v2025.12.9
+      from: v2025.14.3
+      to: v2025.14.9
+    retirement_milestone: v2025.14.9
+    coordinator: true
     output_files:
-      - nomination-feed.yml
-      - recognition-eligibility-feed.yml
-      - contributor visibility cards
-
-  - thread_id: thread-03
-    role: CLA GPT (Licensing Validator)
-    status: active
-    executed_by: gpt-cla-01
-    milestone_range:
-      from: v2025.11.0
-      to: v2025.11.2
-    output_files:
-      - cla-status.yml
-      - CLA-STATUS-VERIFICATION.md
-
-  - thread_id: thread-04
-    role: Certification Dashboard Feed (future)
-    status: reserved
-    executed_by: null
-    milestone_range:
-      from: v2025.13.0
-      to: v2025.13.9
+      - THREAD-ID-REGISTRY.yml
+      - THREAD-TRANSFER.md
+      - GOVERNANCE-THREADS.md
+      - GPT-ORCHESTRATION.md
+      - THREAD-RETIREMENT.md

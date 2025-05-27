@@ -1,31 +1,7 @@
-# 🧠 GOVERNANCE-THREADS.md
+# GOVERNANCE-THREADS.md  
+# NI Open Source Program — GPT Thread Execution Map
 
-This file defines all AI threads and GPTs authorized to execute milestones, validate outputs, or write files in the NI Open Source Program.
-
----
-
-## 🔁 Active GPT Threads (v2025.05)
-
-| Thread Name | Role | May Write | May Read | Milestones |
-|-------------|------|-----------|----------|------------|
-| Certification Layer GPT | Contributor profile + certification export | `docs/certification/`, `docs/export/` | `docs/forms/` | v2025.08 → v2025.18 |
-| Forms Parser GPT | Field mapping + opt-in ingestion | `FORMS-METADATA-MAP.md`, test forms | `.github/ISSUE_TEMPLATE` | v2025.06.2 |
-| System GPT | Milestone logs + onboarding registry | `docs/governance/`, `docs/system/` | All folders | v2025.06.0 → v2025.09.4 (✅ Retired via v2025.08.5) |
-| CLA GPT | Contributor licensing validation (read-only) | None | GitHub PR metadata, commit signature status, cla-status.yml | v2025.11.x |
-| thread-07 | Program Coordinator GPT | `docs/system/`, `docs/governance/` | All folders | v2025.14.3 → v2025.14.9 (reserved) |
-| thread-073 | Markdown Dashboard Renderer | `docs/CONTRIBUTORS.md`, `dashboard-index.yml` | All signal feeds | v2025.13.2 → v2025.13.4 (✅ Retired) |
-| thread-07 | Program Coordinator GPT (Coordinator: ✅) | All system governance files | All folders | v2025.14.3 → ongoing |
-
-
-
-
-
----
-
-## 🔒 Enforcement
-
-- No GPT may write outside its declared folders
-- All execution must be milestone-bound
-- All role changes must be declared via program milestone
-
-| Recognition GPT | Signal observer, nomination interpreter | `docs/system/recognition-feed.yml`, `.github/ISSUE_TEMPLATE/`, GitHub Discussions | None (read-only) | `v2025.07.x` |
+| Thread ID | Role | May Write | May Read | Milestones |
+|-----------|------|-----------|----------|------------|
+| thread-01 | System GPT | docs/system/, docs/governance/ | All | v2025.06.0 → v2025.09.4 (✅ Retired) |
+| thread-07 | Program Coordinator GPT | All governance files | All folders | v2025.14.3 → v2025.14.9 (✅ Retired) |
