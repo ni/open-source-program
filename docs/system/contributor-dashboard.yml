@@ -1,0 +1,29 @@
+# contributor-dashboard.yml
+# NI Open Source Program — Contributor Dashboard Metadata Feed
+# Milestone: v2025.13.1
+# Version: v2025.05-governance-hardened
+
+generated: 2025-05-27
+
+contributors:
+  - handle: "@crossruls"
+    repo: "ni/labview-icon-editor"
+    pr_url: "https://github.com/ni/labview-icon-editor/pull/42"
+    milestone: v2025.09.4
+    tags:
+      - test
+      - manual-verification
+    cla_validated: true
+    opt_in: true
+    nomination:
+      badge: "Test Coordinator"
+      status: "surfaced"
+      source: "nomination-feed.yml"
+    points:
+      value: 2
+      status: "manual"
+    eligibility:
+      appears_in_exports: true
+      appears_in_dashboard: true
+    notes: |
+      Contributor is surfaced via milestone `v2025.07.1`, approved for public dashboard display under v2025.10.4.
