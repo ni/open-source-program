@@ -1,6 +1,36 @@
 # 📘 PROGRAM-CHANGELOG.md
 
 This file tracks all milestone groupings and execution transitions under the NI Open Source Program.
+---
+
+## 📅 2025-05-26 — v2025.10 Contributor Visibility Tier Complete
+
+This milestone tier introduced contributor-facing metadata, dispute resolution, sync guidelines, and publishing logic.
+
+---
+
+### ✅ Milestones
+
+- `v2025.10.0` → `v2025.10.4`
+
+---
+
+### 📂 Outputs
+
+- `recertification-feed.yml`, `sharepoint-export.csv`, `contributors/*.md`
+- `metadata-sync-spec.md`
+- `contributor-dispute.md` issue template
+
+---
+
+### 🔐 Trust Rules
+
+- All data opt-in only
+- All logic milestone-bound
+- No scoring automation permitted
+
+Milestone Status: ✅ Closed  
+Version: `v2025.05-governance-hardened`
 
 ---
 
