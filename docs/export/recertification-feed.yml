@@ -11,8 +11,10 @@ contributors:
     pr_url: "https://github.com/ni/labview-icon-editor/pull/42"
     merged: true
     point_value: 2
+    validated: true
     tags:
       - test
       - manual-verification
     notes: |
-      Merged test PR from @crossruls validated under v2025.06.5. Tagged manually in nomination-feed.
+      Contributor identity verified via GitHub profile.
+      DCO confirmed via commit signature. CLA assumed based on milestone scope.
