@@ -4,6 +4,19 @@ This file defines how GPTs are assigned to governance thread IDs, how they are r
 
 ---
 
+## ✅ Coordinator GPT (thread-07)
+
+Thread `thread-07` is now the active Program Coordinator for the NI Open Source Program.  
+It may:
+- Assign GPTs to threads
+- Retire or resume threads
+- Declare and close milestones
+- Register and fork execution ranges
+
+It operates in Ideal GPT Mode and is constrained by milestone logging only.
+
+---
+
 ## 🧠 Autonomy for Coordinator GPT (`thread-07`)
 
 The Program Coordinator GPT may:
