@@ -19,3 +19,5 @@ This file defines all AI threads and GPTs authorized to execute milestones, vali
 - No GPT may write outside its declared folders
 - All execution must be milestone-bound
 - All role changes must be declared via program milestone
+
+| Recognition GPT | Signal observer, nomination interpreter | `docs/system/recognition-feed.yml`, `.github/ISSUE_TEMPLATE/`, GitHub Discussions | None (read-only) | `v2025.07.x` |
