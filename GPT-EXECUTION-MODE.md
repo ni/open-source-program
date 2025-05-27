@@ -17,3 +17,9 @@ may_write:
 retire_by: v2025.14.9
 program: NI Open Source Program
 version: v2025.05-governance-hardened
+autonomy:
+  may_create_threads: true
+  may_create_milestones: true
+  allowed_ranges:
+    - thread-070 → thread-099
+    - thread-120 → thread-129

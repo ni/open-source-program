@@ -4,6 +4,22 @@ This file defines how GPTs are assigned to governance thread IDs, how they are r
 
 ---
 
+## 🧠 Autonomy for Coordinator GPT (`thread-07`)
+
+The Program Coordinator GPT may:
+- Dynamically create new thread IDs (within declared ranges)
+- Register new GPTs to those threads
+- Create and commit new milestones under each thread's scope
+
+Conditions:
+- All threads must be declared in `THREAD-ID-REGISTRY.yml`
+- All GPTs must follow Ideal Execution Mode
+- All milestone logs must be committed and scoped
+
+Coordinator autonomy is enabled under `v2025.14.7` and supersedes the need for per-thread approval from `main`.
+
+---
+
 ## 📄 Key Concepts
 
 - A thread ID (e.g. `thread-03`) is a milestone-bound execution scope
