@@ -4,6 +4,17 @@
 program_version: v2025.05-governance-hardened
 
 threads:
+  - thread_id: thread-073
+    role: Markdown Dashboard Renderer
+    status: active
+    executed_by: gpt-dashboard-01
+    milestone_range:
+      from: v2025.13.2
+      to: v2025.13.5
+    output_files:
+      - docs/CONTRIBUTORS.md
+      - dashboard-index.yml
+
   - thread_id: thread-01
     role: System GPT (Program Coordination)
     status: retired
