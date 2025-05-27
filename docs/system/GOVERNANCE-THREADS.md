@@ -5,3 +5,5 @@
 |-----------|------|-----------|----------|------------|
 | thread-01 | System GPT | docs/system/, docs/governance/ | All | v2025.06.0 → v2025.09.4 (✅ Retired) |
 | thread-07 | Program Coordinator GPT | All governance files | All folders | v2025.14.3 → v2025.14.9 (✅ Retired) |
+| thread-100 | GPT Lineage Controller | `GPT-LINEAGE-REGISTRY.md`, system governance files | All folders | v2025.15.0 → v2025.15.4 |
+

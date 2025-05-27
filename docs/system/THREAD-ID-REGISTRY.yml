@@ -29,3 +29,12 @@ threads:
       - GOVERNANCE-THREADS.md
       - GPT-ORCHESTRATION.md
       - THREAD-RETIREMENT.md
+  - thread_id: thread-100
+    role: GPT Lineage Controller
+    status: active
+    executed_by: gpt-lineage-01
+    milestone_range:
+      from: v2025.15.0
+      to: v2025.15.4
+    output_files:
+      - GPT-LINEAGE-REGISTRY.md
