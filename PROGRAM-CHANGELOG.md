@@ -4,6 +4,36 @@ This file tracks all milestone groupings and execution transitions under the NI 
 
 ---
 
+## [v2025.99] – Governance System Live
+
+**Date:** 2025-05-27  
+**Type:** Program Launch Milestone  
+**Actor:** Foundational Architect GPT (executed via Git interface)
+
+---
+
+### 🔧 What Changed
+
+- Declared the NI Open Source Program governance system *live and active*
+- Formalized a **single source of truth** model for all milestone execution, contributor roles, and program file inheritance
+- Published initial governance manifest: `REPOS-UNDER-GOVERNANCE.md`
+- Designated the following repositories as in-scope for milestone-bound automation and contributor recognition:
+  - `ni/open-source-program`
+  - `ni/labview-open-source-program`
+  - `ni/labview-icon-editor`
+  - `ni/actor-framework`
+
+---
+
+### 📘 Next Actions
+
+- Begin file inheritance drop in `labview-icon-editor` and `actor-framework`
+- Begin milestone-bound contributor scoring, CLA role tracking, and nomination logic under `v2025.14+`
+- Prepare `v2026.00` as the first post-launch governance evolution release
+
+
+---
+
 ## 📅 2025-05-27 — v2025.13 Contributor Dashboard Tier Complete
 
 This milestone tier publishes contributor dashboards under governance milestone control.
